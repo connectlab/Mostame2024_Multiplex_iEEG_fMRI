@@ -5,6 +5,6 @@
 4- Jump artifacts (< 100ms) has been detected and interpolated appropriately.
 5- I only cleaned P07 using ICA since it had significant gradient artifacts. But not for other subjects.
 6- These electrodes have been excluded from the data:
-Two versions of EEG for each subject are shared. The file name clarifies that either (NIZ-IZ2) or (NIZ-only) has been included in the data. I use (NIZ-only) meaning that I exclude both IZ1 and IZ2 regions from my analyses.
-Electrodes in white matter have been excluded, using the SPM gray matter mask.
-Additional electrodes with excessive ictal activity or artifacts have been removed based on my visual inspections.
+* Two versions of EEG for each subject are shared. The file name clarifies that either (NIZ-IZ2) or (NIZ-only) has been included in the data. I use (NIZ-only) meaning that I * exclude both IZ1 and IZ2 regions from my analyses.
+* Electrodes in white matter have been excluded, using the SPM gray matter mask.
+* Additional electrodes with excessive ictal activity or artifacts have been removed based on my visual inspections.
